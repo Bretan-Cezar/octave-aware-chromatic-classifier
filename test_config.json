@@ -1,0 +1,9 @@
+{
+    "dbRootDir": ".\\db\\single_notes",
+    "testSubdirs": [
+        "FSNS"
+    ],
+    "modelPath": "./model/16000-hop-size/ckpt-98.00-16000-hop-size.pt",
+    "device": 0,
+    "lowCut": 25
+}

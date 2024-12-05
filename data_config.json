@@ -1,0 +1,19 @@
+{
+    "dataRootDir": ".\\dataset\\single_notes",
+    "dbRootDir": ".\\db\\single_notes",
+    "subdirs": [
+        "RGD61-BH-MD-RG",
+        "RGD61-NH-MD-RG",
+        "IPSBH",
+        "IPSNH",
+        "IPSBNS",
+        "FSNS"
+    ],
+    "targetSampleRate": 48000,
+    "samplesPerWindow": 16000,
+    "windowType": "blackman",
+    "samplesPerHop": 16000,
+    "trimSilence": true,
+    "useDatasetStampsForTrimming": true,
+    "highCut": 8000
+}

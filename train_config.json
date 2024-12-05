@@ -1,0 +1,25 @@
+{
+    "dbRootDir": ".\\db\\single_notes",
+    "trainSubdirs": [
+        "RGD61-BH-MD-RG",
+        "RGD61-NH-MD-RG"
+    ],
+    "testSubdirs": [
+        "IPSBH",
+        "IPSNH"
+    ],
+    "logDir": ".\\log",
+    "addNoise": false,
+    "noiseMean": 0,
+    "noiseDev": 0.006,
+    "lowCut": 0,
+    "modelDir": ".\\model",
+    "learningRate": 2e-5,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "eps": 1e-8,
+    "maxEpochs": 1000,
+    "ckptEpochs": 10,
+    "batchSize": 24,
+    "device": 0
+}
